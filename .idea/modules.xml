@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ApiVendala.iml" filepath="$PROJECT_DIR$/.idea/ApiVendala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ApiVendalaFront/.idea/ApiVendalaFront.iml" filepath="$PROJECT_DIR$/../ApiVendalaFront/.idea/ApiVendalaFront.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api/.idea/api.iml" filepath="$PROJECT_DIR$/../api/.idea/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../colmeia_a/.idea/colmeia_a.iml" filepath="$PROJECT_DIR$/../colmeia_a/.idea/colmeia_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../seuencontrocasual/.idea/seuencontrocasual.iml" filepath="$PROJECT_DIR$/../seuencontrocasual/.idea/seuencontrocasual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../sindicombustiveis/.idea/sindicombustiveis.iml" filepath="$PROJECT_DIR$/../../sindicombustiveis/.idea/sindicombustiveis.iml" />
+    </modules>
+  </component>
+</project>
