@@ -1,4 +1,5 @@
 <h2 style="color:#F00">NOTA</h2>
+Tutorial: http://codezeus.com.br/tutorial.mp4<br/>
 Este Projeto possui o frontend desacomplando deste repositório, para que possamos de fato testar a  API. Neste caso iremos iniciar configurando a parte do backend(a API em si),   para 
 somente depoisconfigurar o front.
 
