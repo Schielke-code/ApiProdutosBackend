@@ -17,7 +17,7 @@ somente depoisconfigurar o front.
 </p>
 
 <p>
-	Agora vamos limpar o seu arquivo de configuração usando o comando:  "php artisan config:clear"
+	Agora vamos limpar o seu arquivo de configuração usando o comando:  "php artisan config:clear" em seguida  "php artisan storage:link" para que possamos visualizar e enviar as imagens
 </p>
 
 
