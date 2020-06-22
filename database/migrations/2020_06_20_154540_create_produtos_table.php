@@ -17,7 +17,7 @@ class CreateProdutosTable extends Migration
             $table->string('nome')->nullable();
             $table->text('descricao')->nullable();
             $table->decimal('preco', 8, 2)->nullable();
-            $table->text('url_imagem')->nullable();
+            $table->text('image')->nullable();
             $table->enum('tipo',['PRODUTO', 'KIT'])->default('PRODUTO');
             $table->timestamps();
         });
