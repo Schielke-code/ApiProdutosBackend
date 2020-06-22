@@ -9,7 +9,7 @@ somente depoisconfigurar o front.
 	"composer install"
 </p>
 <p>
-	Após concluir esta etapa copie o arquivo ".env.example" e cole como o nome ".env (cole no mesmo diretório do .env.example)"
+	Após concluir esta etapa copie o arquivo ".env.example" e cole renomeando para ".env (cole no mesmo diretório do .env.example)"
 </p>
 
 <p>
@@ -20,11 +20,8 @@ somente depoisconfigurar o front.
 	Agora vamos limpar o seu arquivo de configuração usando o comando:  "php artisan config:clear"
 </p>
 
-<p>
-	Após estas etapas na pasta do projeto rode o comando: "php artisan serve", observe que a página inicial do Laravel vai ser exibida, mostrando assim que o projeto esta rodando
-</p>
 
-<h2>Configurando o banco de dados</h2>
+<h2>Configurando o banco de dados no arquivo .env</h2>
 
 <p>
 	Crie um banco de dados Mysql no seu localhost - nome do banco de sua preferência
@@ -47,6 +44,6 @@ somente depoisconfigurar o front.
 </p>
 
 <p>
-   Aproveitado q o seu terminal esta aberto execute o comando "php artisan serve", veja que vai exibir o link no qual o seu backen esta rodando, deixe o rodando e vamos para configuração do front end
+   Aproveitado q o seu terminal esta aberto execute o comando "php artisan serve", veja que vai exibir o link no qual o seu backend esta rodando, deixe o rodando e vamos para configuração do front end
    <a href="https://github.com/Schielke-code/ApiProdutosFrontend" target="_blank">clicando aqui</a>
 </p>
