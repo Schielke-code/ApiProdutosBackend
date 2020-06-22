@@ -90,21 +90,8 @@ class ProdutosController extends Controller
     }
 
 
-    public function show($id)
-    {
-
-    }
-
-
-    public function update(Request $request, $id)
-    {
-
-    }
-
-
     public function destroy($id)
     {
-
         try{
 
             Produtos::where('produto_kit_id', $id)->update(['produto_kit_id' => null]);
