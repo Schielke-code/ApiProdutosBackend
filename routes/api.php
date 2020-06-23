@@ -23,6 +23,7 @@ Route::group(['namespace'=>'Api', 'as'=>'api.'], function () {
             Route::get('/list/item', 'ProdutosController@listProdutos');
             Route::put('/store', 'ProdutosController@store');
             Route::get('/update', 'ProdutosController@update');
+            Route::get('/show/{id}', 'ProdutosController@show');
             Route::delete('/delete/{id}', 'ProdutosController@destroy');
         });
 
