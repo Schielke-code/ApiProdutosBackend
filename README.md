@@ -31,12 +31,12 @@ somente depois configurar o front.
 <p>
 	Após criar o banco atualize as informações do seu banco no arquivo .env com as seguintes configurações:<br/><br/>
 	
-	DB_CONNECTION=mysql<br/>
-	DB_HOST=127.0.0.1<br/>
-	DB_PORT=3306<br/>
-	DB_DATABASE={nome-do-banco}<br/>
-	DB_USERNAME=root<br/>
-	DB_PASSWORD={senha-se-necessario}<br/>
+	DB_CONNECTION=mysql
+	DB_HOST=127.0.0.1
+	DB_PORT=3306
+	DB_DATABASE={nome-do-banco}
+	DB_USERNAME=root
+	DB_PASSWORD={senha-se-necessario}
 
 </p>
 <p>
