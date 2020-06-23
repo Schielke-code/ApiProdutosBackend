@@ -27,8 +27,6 @@ class ProdutosController extends Controller
 
     public function store(Request $request)
     {
-
-
         try{
             //somando valores do item para serem passados para o kit
             $arrayProdutos = explode(',', $request->produto) ;

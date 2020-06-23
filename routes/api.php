@@ -21,7 +21,7 @@ Route::group(['namespace'=>'Api', 'as'=>'api.'], function () {
         Route::group(['prefix' => 'produtos', 'as' => 'produtos.'], function () {
             Route::get('/list', 'ProdutosController@index');
             Route::get('/list/item', 'ProdutosController@listProdutos');
-            Route::post('/store', 'ProdutosController@store');
+            Route::put('/store', 'ProdutosController@store');
             Route::get('/update', 'ProdutosController@update');
             Route::delete('/delete/{id}', 'ProdutosController@destroy');
         });
