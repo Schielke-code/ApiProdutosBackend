@@ -12,7 +12,7 @@ class ProdutosController extends Controller
     //Listage de todos os produtos
     public function index()
     {
-        $produtos = Produtos::orderBy('id', 'DESC')->paginate(5);
+        $produtos = Produtos::orderBy('id', 'DESC')->paginate(3);
         return  response()->json($produtos);
     }
 
