@@ -28,8 +28,9 @@ class ProdutosController extends Controller
     public function store(Request $request)
     {
 
-        //somando vlaores do item para serem passados para o kit
+
         try{
+            //somando valores do item para serem passados para o kit
             $arrayProdutos = explode(',', $request->produto) ;
             if($request->kit != '0'){
                 $produtosValor = Produtos::select( DB::raw('sum( preco ) as valor') )
