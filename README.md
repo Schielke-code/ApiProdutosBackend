@@ -10,7 +10,7 @@ somente depois configurar o front.
 	<code>composer install</code>
 </p>
 <p>
-	Concluindo esta etapa copie o arquivo ".env.example" e cole renomeando para ".env (cole no mesmo diretório do .env.example)"
+	Concluindo esta etapa copie o arquivo ".env.example" e cole renomeando para ".env (cole no mesmo diretório do .env.example)" ou somente da o comando <code>cp .env.example .env</code>
 </p>
 
 <p>
